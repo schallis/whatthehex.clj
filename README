@@ -4,7 +4,13 @@ FIXME: write description
 
 ## Usage
 
-FIXME: write
+== REPL ==
+(load whatthehex/core)
+(ns whatthehex.core)
+(gen-level {})
+
+== Browser ==
+lein ring server
 
 ## License
 
