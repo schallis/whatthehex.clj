@@ -1,19 +1,20 @@
-# whatthehex
+==============
+whatthehex.clj
+==============
+:Info: A hexadcimal color-guessing game written in Clojure
+:Authors: Steve Challis (http://schallis.com)
+:Requires: Leiningen, Compojure, Hiccup
+:License: Distributed under the Eclipse Public License, the same as Clojure.
 
-FIXME: write description
+Usage
+=====
+To start playing straightaway, run a Ring server from Leiningen with::
 
-## Usage
+$ lein ring server
 
-== REPL ==
-(load whatthehex/core)
-(ns whatthehex.core)
-(gen-level {})
+Alternatively, you can interactively run the program from a REPL/Slime. You'll just need to load the source e.g.::
 
-== Browser ==
-lein ring server
+user> (load whatthehex/core)
+user> (ns whatthehex.core)
+whatthehex.core> (gen-level {})
 
-## License
-
-Copyright (C) 2011 Steve Challis
-
-Distributed under the Eclipse Public License, the same as Clojure.
