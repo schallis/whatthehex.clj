@@ -10,11 +10,11 @@ Usage
 =====
 To start playing straightaway, run a Ring server from Leiningen with::
 
-$ lein ring server
+    $ lein ring server
 
 Alternatively, you can interactively run the program from a REPL/Slime. You'll just need to load the source e.g. ::
 
-user> (load whatthehex/core)
-user> (ns whatthehex.core)
-whatthehex.core> (gen-level {})
+    user> (load whatthehex/core)
+    user> (ns whatthehex.core)
+    whatthehex.core> (gen-level {})
 
